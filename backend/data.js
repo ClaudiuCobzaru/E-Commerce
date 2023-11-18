@@ -45,7 +45,7 @@ const data = {
       category: 'phones',
       image: '/images/p4.jpg',
       price: 4400,
-      countInStock: 34,
+      countInStock: 0,
       brand: 'Google',
       rating: 4.3,
       numReviews: 120,
