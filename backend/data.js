@@ -1,7 +1,24 @@
+import bcrypt from 'bcryptjs';
 const data = {
+  users: [
+    {
+      name: 'Claudiu',
+      email: 'admin@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+
+    {
+      name: 'Andrei',
+      email: 'user@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
+
   products: [
     {
-      _id: '1',
+      //_id: '1',
       name: 'Apple Iphone 13',
       slug: 'apple-iphone-13',
       category: 'phones',
@@ -15,7 +32,7 @@ const data = {
     },
 
     {
-      _id: '2',
+      //_id: '2',
       name: 'Apple Iphone 13 Pro',
       slug: 'apple-iphone-13-pro',
       category: 'phones',
@@ -29,7 +46,7 @@ const data = {
     },
 
     {
-      _id: '3',
+      //_id: '3',
       name: 'Samsung Galxy S22',
       slug: 'samsung-galaxy-s22',
       category: 'phones',
@@ -43,7 +60,7 @@ const data = {
     },
 
     {
-      _id: '4',
+      //_id: '4',
       name: 'Google Pixel 7 Pro',
       slug: 'google-pixel-7-pro',
       category: 'phones',
