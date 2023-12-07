@@ -47,7 +47,7 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>PC Garbage</title>
+        <title>EraTech</title>
       </Helmet>
       <h1>Featured Products</h1>
       <div className="products">

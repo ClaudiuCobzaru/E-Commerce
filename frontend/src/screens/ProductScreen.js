@@ -122,7 +122,7 @@ function ProductScreen() {
                       {product.countInStock > 0 ? (
                         <Badge bg="success">In Stock</Badge>
                       ) : (
-                        <Badge bg="danger">Sold out</Badge>
+                        <Badge bg="danger">Out of stock</Badge>
                       )}
                     </Col>
                   </Row>
